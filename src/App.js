@@ -13,7 +13,7 @@ function App() {
 
         <div className="row">
           <div className="col-12 col-md-6">
-            <div className="card" style="width: 18rem;">
+            <div className="card">
 
               <div className="card-body">
                 
