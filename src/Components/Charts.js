@@ -79,8 +79,11 @@ class Charts extends Component {
           
         return (
             <>
-                <h3>{this.props.type}</h3>
-                <div>
+               
+                <div className=" shadow-lg p-3 mb-4 bg-white rounded">
+                <h3>{this.props.title||this.props.type }</h3>
+                {this.props.para&&(<p className="text-muted">{this.props.para}</p>)}
+                
                 <Line ref="chart" data={data} />
                 </div>
             </>
