@@ -1,4 +1,4 @@
-import logo from './IMG-20220602-WA0015.jpg';
+import logo from './logo.svg';
 import './App.css';
 import Charts from './Components/Charts';
 
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App p-3">
       <div className="white p-3">
-        <h1>EMG Monitor</h1>
+        <h1>Green House Monitor</h1>
         <p>{dateTime}</p>
       </div>
       <div className="container">
@@ -27,13 +27,8 @@ function App() {
                 
               </div>
             </div> */}
-            {/* <Charts type={'Temperature'} limit={"12"} /> */}
-            <div>
-      <img src={logo} alt="BigCo Inc. logo"/>
-    </div>
+            <Charts type={'Temperature'} limit={"12"} />
           </div>
-
-          
           {/* <div className="col-12 col-md-6">
             <Charts type={'Humidity'} limit={"12"} />
           </div>
