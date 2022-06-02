@@ -54,7 +54,7 @@ class Charts extends Component {
             labels:labelArr.slice(-(this.props.limit)),
             datasets: [
               {
-                label: this.props.type,
+                label: "emg",
                 fill: false,
                 lineTension: 0.1,
                 backgroundColor: 'rgba(75,192,192,0.4)',
@@ -81,8 +81,8 @@ class Charts extends Component {
             <>
                
                 <div className=" shadow-lg p-3 mb-4 bg-white rounded">
-                <h3>{this.props.title||this.props.type }</h3>
-                {this.props.para&&(<p className="text-muted">{this.props.para}</p>)}
+                <h3>{"EMG" }</h3>
+                {/* {this.props.para&&(<p className="text-muted">{this.props.para}</p>)} */}
                 
                 <Line ref="chart" data={data} />
                 </div>

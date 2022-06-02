@@ -14,13 +14,13 @@ function App() {
   return (
     <div className="App p-3">
       <div className="white p-3">
-        <h1>Green House Monitor</h1>
+        <h1>EMG Monitor</h1>
         <p>{dateTime}</p>
       </div>
       <div className="container">
 
         <div className="row">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-12">
             {/* <div className="card">
 
               <div className="card-body">
@@ -29,7 +29,7 @@ function App() {
             </div> */}
             <Charts type={'Temperature'} limit={"12"} />
           </div>
-          <div className="col-12 col-md-6">
+          {/* <div className="col-12 col-md-6">
             <Charts type={'Humidity'} limit={"12"} />
           </div>
           <div className="col-12 col-md-6">
@@ -40,7 +40,7 @@ function App() {
           </div>
           <div className="col-12 col-md-6">
             <Charts type={'Water'} limit={"12"} title={'Water Level'} para={"Almost before we knew it, we had left the ground."}/>
-          </div>
+          </div> */}
         </div>
 
 
