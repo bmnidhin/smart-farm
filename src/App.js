@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App p-3">
       <div className="white p-3">
-        <h1>Green House Monitor</h1>
+        <h1>EMG MONITOR</h1>
         <p>{dateTime}</p>
       </div>
       <div className="container">
