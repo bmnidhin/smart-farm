@@ -20,7 +20,7 @@ class Charts extends Component {
     }
     componentDidMount() {
         axios
-            .get("https://test.thetkmshow.in/" + this.props.type)
+            .get("https://t4lk135-server-ksmmb5h97.vercel.app/" + this.props.type)
             .then((response) => {
                 this.setState({
 
