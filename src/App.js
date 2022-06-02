@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './IMG-20220602-WA0015.jpg';
 import './App.css';
 import Charts from './Components/Charts';
 
@@ -27,8 +27,13 @@ function App() {
                 
               </div>
             </div> */}
-            <Charts type={'Temperature'} limit={"12"} />
+            {/* <Charts type={'Temperature'} limit={"12"} /> */}
+            <div>
+      <img src={logo} alt="BigCo Inc. logo"/>
+    </div>
           </div>
+
+          
           {/* <div className="col-12 col-md-6">
             <Charts type={'Humidity'} limit={"12"} />
           </div>

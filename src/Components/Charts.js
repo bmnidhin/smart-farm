@@ -7,6 +7,7 @@ import { Line } from 'react-chartjs-2';
 
 
 
+
 class Charts extends Component {
     constructor(props) {
         super(props)
@@ -82,10 +83,12 @@ class Charts extends Component {
                
                 <div className=" shadow-lg p-3 mb-4 bg-white rounded">
                 <h3>{"EMG" }</h3>
-                {/* {this.props.para&&(<p className="text-muted">{this.props.para}</p>)} */}
+                {this.props.para&&(<p className="text-muted">{this.props.para}</p>)}
+
                 
                 <Line ref="chart" data={data} />
                 </div>
+               
             </>
         );
     }
